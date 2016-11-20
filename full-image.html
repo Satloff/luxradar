@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 " />
+	<title>Luxradar</title>
+    <link rel="stylesheet" media="screen" href="css/all2.css" type="text/css"/>
+	<link rel="stylesheet" media="screen" href="css/all.css" type="text/css"/>
+</head>
+<body>
+	<div id="wrapper">
+		<header id="header">
+			<div class="holder">
+				<div class="mobile-holder">
+					<div class="logo">
+						<a href="#">
+							<img src="images/logo.png" height="22" width="130" alt="Luxradar">
+						</a>
+					</div>
+					<a href="#popup2" class="btn lightbox">add</a>
+					<div class="categories">
+						<div class="drop-block">
+							<a href="#" class="opener"><span class="text">Categories</span> <i class="icon-arrow-bottom"></i></a>
+							<div class="drop">
+								<div class="drop-holder">
+									<div class="drop-frame">
+										<ul>
+											<li><a href="#">Category1</a></li>
+											<li><a href="#">Category2</a></li>
+											<li><a href="#">Category3</a></li>
+											<li><a href="#">Category4</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="search-block">
+					<div class="drop-block">
+						<div class="search-holder">
+							<button type="submit"><i class="icon-search"></i></button>
+							<div class="input-holder">
+								<input type="search" placeholder="Search">
+							</div>
+						</div>
+						<!--<div class="drop searching-block">
+							<div class="drop-holder">
+								<div class="info-block">
+									<div class="heading">
+										<h2>profiles</h2>
+									</div>
+									<div class="results">
+										<a href="#" class="profile">
+											<div class="profile-img">
+												<img src="images/img23.png" height="25" width="25" alt="Image description">
+											</div>
+											<div class="profile-info">
+												<strong>Andrew Garfield <mark>(Actor)</mark></strong>
+												<p>Andrew Russell Garfield is an actor with dual citizenship of the United States...</p>
+											</div>
+										</a>
+										<a href="#" class="profile">
+											<div class="profile-img">
+												<img src="images/img23.png" height="25" width="25" alt="Image description">
+											</div>
+											<div class="profile-info">
+												<strong>Andrew GN <mark>(Band)</mark></strong>
+												<p>Renal Social Worker at Kadeo. I love to be exciting and climb things...</p>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="info-block">
+									<div class="heading">
+										<h2>spots</h2>
+									</div>
+									<div class="results">
+										<a href="#" class="profile">
+											<div class="profile-img">
+												<img src="images/img23.png" height="25" width="25" alt="Image description">
+											</div>
+											<div class="profile-info">
+												<strong>Vogue and Andrew Gn</strong>
+												<p>Andrew Gn was spotted in Vogue.</p>
+											</div>
+										</a>
+										<a href="#" class="profile">
+											<div class="profile-img">
+												<img src="images/img23.png" height="25" width="25" alt="Image description">
+											</div>
+											<div class="profile-info">
+												<strong>Dubai and Andrew Gn</strong>
+												<p>Andrew Gn designs were seen in Dubai</p>
+											</div>
+										</a>
+									</div>
+								</div>
+								<a href="#" class="more">See All 2224 results</a>
+							</div>
+						</div>-->
+					</div>
+				</div>
+				<div class="notifications">
+					<div class="drop-block">
+						<a href="#" class="opener">
+							<span class="text">Notifications</span>
+							<span class="quantity">3</span>
+						</a>
+						<div class="drop">
+							<div class="drop-holder">
+								<div class="drop-frame">
+									<div class="heading">
+										<h2>notifications</h2>
+										<a href="#" class="btn clear"><i class="icon-close"></i> <span class="text">Clear all</span></a>
+									</div>
+									<ul class="list-notifications">
+										<li>
+											<div class="item">
+												<div class="item-frame">
+													<a href="#" class="img-holder">
+														<img src="images/img23.png" height="25" width="25" alt="Image description">
+													</a>
+													<a href="#" class="img-right">
+														<img src="images/img7.jpg" height="42" width="42" alt="Image description">
+													</a>
+												</div>
+												<div class="item-holder">
+													<a href="#">Joe Lawson </a>liked <a href="#">your photo</a>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="item">
+												<div class="item-frame">
+													<a href="#" class="img-holder">
+														<img src="images/img23.png" height="25" width="25" alt="Image description">
+													</a>
+												</div>
+												<div class="item-holder">
+													<a href="#">Frances Jordan </a>followed you
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="item">
+												<div class="item-frame">
+													<a href="#" class="img-holder">
+														<img src="images/img23.png" height="25" width="25" alt="Image description">
+													</a>
+													<a href="#" class="img-right">
+														<img src="images/img7.jpg" height="42" width="42" alt="Image description">
+													</a>
+												</div>
+												<div class="item-holder">
+													<a href="#">Paul Rice </a>liked <a href="#">Fujifilm X100S</a>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Logged-in Account state -->
+				<!--<div class="account">
+					<div class="drop-block">
+						<a href="profile.html" class="img-holder">
+							<img src="images/img21.jpg" height="220" width="220" alt="Image description">
+						</a>
+						<a href="#" class="opener">
+							<span class="text">Andree</span>
+							<i class="icon-arrow-bottom"></i>
+						</a>
+						<div class="drop">
+							<div class="drop-holder">
+								<div class="drop-frame">
+									<ul>
+										<li><a href="#">My account</a></li>
+										<li><a href="#">Settings</a></li>
+										<li><a href="#">Invite a friend</a></li>
+										<li><a href="#">Sign out</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>-->
+				<!-- Logged-out button -->
+				<div class="login">
+					<a href="#popup1" class="btn lightbox">Login</a>
+				</div>
+			</div>
+		</header>
+		<main id="main">
+			<div class="holder">
+				<div id="two-columns" class="inner">
+					<div id="content">
+						<div class="img-block full">
+							<a href="#" class="img-holder">
+								<img src="images/img-base-640.png" height="633" width="640" alt="image description">
+								<span class="holder-box-h"><img src="images/img22.jpg" height="633" width="428" alt="Image description"></span>
+							    <!-- if image is wider than it is high, use holder-box-w. if image is higher than it is wide, use holder-box-h -->
+                            </a>
+							<div class="info">
+								<div class="info-holder">
+									<a href="#" class="btn btn-add btn-share">Share</a>
+									<a href="#" class="like-holder">
+										<span class="icone-like">
+											<i class="icon-heart"></i>
+											<i class="icon-heart3"></i>
+										</span>
+										<span class="quantity">53</span>
+									</a>
+								</div>
+								<div class="img-caption">
+									<strong>Staircase sitter</strong>
+									<p>By: <a href="#">Samuel Owens</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<aside id="sidebar">
+						<div class="aside-section">
+							<h2><a href="#">Attributes</a></h2>
+							<ul class="list-items">
+								<li>
+									<a href="#" class="img-holder">
+										<img src="images/img7.jpg" height="42" width="42" alt="Image description">
+									</a>
+									<div class="item-holder">
+										<strong>Carrying bag</strong>
+										<a href="#">Is this right?</a>
+									</div>
+								</li>
+								<li>
+									<a href="#" class="img-holder">
+										<img src="images/img8.jpg" height="42" width="42" alt="Image description">
+									</a>
+									<div class="item-holder">
+										<strong>Sweater</strong>
+										<a href="#">Is this right?</a>
+									</div>
+								</li>
+								<li>
+									<a href="#" class="img-holder">
+										<img src="images/img9.jpg" height="42" width="42" alt="Image description">
+									</a>
+									<div class="item-holder">
+										<strong>Shoes</strong>
+										<a href="#">Is this right?</a>
+									</div>
+								</li>
+							</ul>
+							<div class="popup-holder">
+								<a href="#popup3" class="btn btn-add lightbox"><i class="icon-plus"></i> <span class="text">Add attribute</span></a>
+								<!-- <div class="popup">
+									<form action="#" class="attribute-form">
+										<fieldset>
+											<div class="step1">
+												<div class="input-holder">
+													<input type="text" placeholder="Name">
+												</div>
+											</div>
+											<div class="step2">
+												<strong class="section-title">Carrying bags</strong>
+												<div class="list-selects">
+													<div class="select-holder">
+														<label for="category">Category</label>
+														<select id="category">
+															<option>Celebrity</option>
+															<option>Celebrity</option>
+															<option>Celebrity</option>
+															<option>Celebrity</option>
+														</select>
+													</div>
+													<div class="select-holder">
+														<label for="sub-category">Sub-Category</label>
+														<select id="sub-category">
+															<option>Actor</option>
+															<option>Actor</option>
+															<option>Actor</option>
+															<option>Actor</option>
+														</select>
+													</div>
+												</div>
+												<div class="image-selection">
+													<p>Select an image that matches the attribute</p>
+													<ul class="list-images">
+														<li class="checked">
+															<a class="img-holder" href="#">
+																<span class="img-hover icon-check"></span>
+																<img src="images/img24.jpg" height="93" width="93" alt="Image description">
+															</a>
+														</li>
+														<li>
+															<a class="img-holder" href="#">
+																<span class="img-hover icon-check"></span>
+																<img src="images/img25.jpg" height="93" width="93" alt="Image description">
+															</a>
+														</li>
+														<li>
+															<a class="img-holder" href="#">
+																<span class="img-hover icon-check"></span>
+																<img src="images/img26.jpg" height="93" width="93" alt="Image description">
+															</a>
+														</li>
+													</ul>
+													<a href="#" class="more-images"><span class="text">Next page of images</span> <i class="icon-arrow-right"></i></a>
+												</div>
+												<p>Is this description right? It’s from <a href="#">fancy.com</a></p>
+												<p>If not, feel free to change it:</p>
+												<div class="input-holder description">
+													<input type="text" placeholder="Description">
+												</div>
+											</div>
+											<div class="list-buttons">
+												<a href="#" class=" close btn btn-add">Cancel</a>
+												<a href="#" class="btn">Continue</a>
+											</div>
+										</fieldset>
+									</form>
+								</div> -->
+							</div>
+						</div>
+						<div class="aside-section">
+							<h2>similar</h2>
+							<ul class="similar-images">
+								<li><a class="img-holder" href="#"><img src="images/img10.jpg" height="68" width="68" alt="Image description"></a></li>
+								<li><a class="img-holder" href="#"><img src="images/img11.jpg" height="68" width="68" alt="Image description"></a></li>
+								<li><a class="img-holder" href="#"><img src="images/img12.jpg" height="68" width="68" alt="Image description"></a></li>
+							</ul>
+							<span class="more-images"><a href="#">More similar images</a></span>
+						</div>
+						<div class="link-holder">
+							<a href="attribute-page.html#actions" class="profile-link">
+								<i class="icon-person"></i>
+								<span class="text">Featured on my profile</span>
+							</a>
+						</div>
+					</aside>
+				</div>
+				<div class="comments-holder">
+					<h2>comments</h2>
+					<div class="list-comments">
+						<div class="comment">
+							<div class="comment-holder">
+								<a href="#" class="img-holder">
+									<img src="images/img14.png" height="47" width="47" alt="Image description">
+								</a>
+								<span class="comment-time">2 hours ago</span>
+							</div>
+							<span class="comment-text"><strong><a href="#">Megan Moreno</a></strong> My thoughts are my own, which means I have no thoughts.</span>
+						</div>
+						<div class="comment">
+							<div class="comment-holder">
+								<a href="#" class="img-holder">
+									<img src="images/img16.png" height="47" width="47" alt="Image description">
+								</a>
+								<span class="comment-time">1 day ago</span>
+							</div>
+							<span class="comment-text"><strong><a href="#">Matthew Rogers</a></strong> I sweat...I mean sweat a lot. Hot yoga is da best mon.</span>
+						</div>
+						<div class="comment">
+							<div class="comment-holder">
+								<a href="#" class="img-holder">
+									<img src="images/img14.png" height="47" width="47" alt="Image description">
+								</a>
+								<span class="comment-time">3 weeks ago</span>
+							</div>
+							<span class="comment-text"><strong><a href="#">William James</a></strong> I try to wash my face and dream about the Sopranos.</span>
+						</div>
+					</div>
+					<div class="new-comment">
+						<a href="#" class="img-holder">
+							<img src="images/img18.png" height="47" width="47" alt="Image description">
+						</a>
+						<div class="input-holder">
+							<input type="text" placeholder="Write your comment...">
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<div class="lightbox-holder">
+			<div id="popup1" class="lightbox-content">
+				<form action="#" class="login-form">
+					<fieldset>
+						<!--<div class="sign-in">
+							<h2>sign in</h2>
+							<p>Sign in using one of the following services:</p>
+							<ul class="socials">
+								<li><a class="twitter" href="#"><i class="icon-twitter"></i></a></li>
+								<li><a class="facebook" href="#"><i class="icon-facebook"></i></a></li>
+								<li><a class="google-plus" href="#"><i class="icon-google-plus"></i></a></li>
+							</ul>
+							<div class="text-or">
+								<span>or</span>
+							</div>
+							<div class="input-holder">
+								<input type="email" placeholder="Email">
+							</div>
+							<div class="input-holder">
+								<input type="password" placeholder="Password">
+							</div>
+							<div class="list-buttons style">
+								<a href="#" class=" close btn btn-add">Cancel</a>
+								<a href="#" class="btn">Sign In</a>
+							</div>
+						</div>-->
+						<div class="sign-up">
+							<h2>sign up</h2>
+							<div class="list-inputs">
+								<div class="input-holder">
+									<input type="text" placeholder="Name">
+								</div>
+								<div class="input-holder">
+									<input type="text" placeholder="Last Name">
+								</div>
+							</div>
+							<div class="input-holder js-name-holder">
+								<span class="text-input">http://luxradar.com/<span class="js-name"></span></span>
+								<input type="text" placeholder="Username">
+							</div>
+							<div class="input-holder">
+								<input type="email" placeholder="Email">
+							</div>
+							<div class="input-holder">
+								<input type="password" placeholder="Password">
+							</div>
+							<div class="text-or">
+								<span>or</span>
+							</div>
+							<ul class="socials">
+								<li><a class="twitter" href="#"><i class="icon-twitter"></i></a></li>
+								<li><a class="facebook" href="#"><i class="icon-facebook"></i></a></li>
+								<li><a class="google-plus" href="#"><i class="icon-google-plus"></i></a></li>
+							</ul>
+							<div class="list-buttons">
+								<p class="text-left"><a href="#">Already have an account?</a></p>
+								<a href="#" class=" close btn btn-add">Cancel</a>
+								<a href="#" class="btn">Continue</a>
+							</div>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+		<div class="lightbox-holder">
+			<div id="popup2" class="lightbox-content upload">
+				<div class="upload-holder">
+					<form action="#" class="upload-form">
+						<h2>Upload to Luxradar</h2>
+						<!-- first step -->
+						<!--<div class="before-loading">
+							<p>Select or drag an image here to upload.</p>
+							<input type="file">
+							<div class="list-buttons">
+								<a href="#" class="close btn btn-add">Go Back</a>
+								<a href="#" class="btn">Upload</a>
+							</div>
+						</div>-->
+						<!-- second step -->
+						<div class="after-loading">
+							<div class="columns">
+								<div class="img-block">
+									<a href="#" class="img-holder">
+										<img src="images/img22.jpg" height="279" width="201" alt="Image description">
+									</a>
+									<span class="sizes">736 x 1104</span>
+								</div>
+								<div class="item-info">
+									<div class="row">
+										<div class="label-holder">
+											<label for="title">Title:</label>
+										</div>
+										<div class="input-holder">
+											<input type="text" id="title">
+										</div>
+									</div>
+									<div class="row">
+										<div class="label-holder">
+											<label for="web-link">web link:</label>
+										</div>
+										<div class="input-holder">
+											<input type="text" id="web-link">
+										</div>
+									</div>
+									<div class="list-selects">
+										<div class="select-holder">
+											<div class="label-holder">
+												<label for="category2">Category:</label> 	
+											</div>
+											<select class="round" id="category2">
+												<option>Men’s</option>
+												<option>Women's</option>
+												<option>Men’s</option>
+												<option>Women's</option>
+											</select>
+										</div>
+										<div class="select-holder">
+											<div class="label-holder">
+												<label for="sub-category2">SubCategory:</label>
+											</div>
+											<select class="round" id="sub-category2">
+												<option>Travel &amp; Destinations</option>
+												<option>Actor</option>
+												<option>Travel &amp; Destinations</option>
+												<option>Travel &amp; Destinations</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="input-holder about">
+								<textarea cols="40" rows="30"  placeholder="Say something about this"></textarea>
+								<!-- <input type="text" placeholder="Say something about this"> -->
+							</div>
+							<div class="list-buttons">
+								<a href="#" class=" close btn btn-add">Cancel</a>
+								<a href="#" class="btn">Add</a>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="lightbox-holder">
+			<div id="popup3" class="lightbox-content">
+				<form action="#" class="attribute-form">
+					<fieldset>
+						<!--<div class="step1">
+							<div class="input-holder">
+								<input type="text" placeholder="Name">
+							</div>
+						</div>-->
+						<div class="step2">
+							<strong class="section-title">Carrying bags</strong>
+							<div class="list-selects">
+								<div class="select-holder">
+									<label for="category">Category</label>
+									<select id="category">
+										<option>Celebrity</option>
+										<option>Celebrity</option>
+										<option>Celebrity</option>
+										<option>Celebrity</option>
+									</select>
+								</div>
+								<div class="select-holder">
+									<label for="sub-category">Sub-Category</label>
+									<select id="sub-category">
+										<option>Actor</option>
+										<option>Actor</option>
+										<option>Actor</option>
+										<option>Actor</option>
+									</select>
+								</div>
+							</div>
+							<div class="image-selection">
+								<p>Select an image that matches the attribute</p>
+								<ul class="list-images">
+									<li class="checked">
+										<a class="img-holder" href="#">
+											<span class="img-hover icon-check"></span>
+											<img src="images/img24.jpg" height="93" width="93" alt="Image description">
+										</a>
+									</li>
+									<li>
+										<a class="img-holder" href="#">
+											<span class="img-hover icon-check"></span>
+											<img src="images/img25.jpg" height="93" width="93" alt="Image description">
+										</a>
+									</li>
+									<li>
+										<a class="img-holder" href="#">
+											<span class="img-hover icon-check"></span>
+											<img src="images/img26.jpg" height="93" width="93" alt="Image description">
+										</a>
+									</li>
+								</ul>
+								<a href="#" class="more-images"><span class="text">Next page of images</span> <i class="icon-arrow-right"></i></a>
+							</div>
+							<p>Is this description right? It’s from <a href="#">fancy.com</a></p>
+							<p>If not, feel free to change it:</p>
+							<div class="input-holder description">
+								<textarea cols="40" rows="10" placeholder="Description"></textarea>
+								<!-- <input type="text" placeholder="Description"> -->
+							</div>
+						</div>
+						<div class="list-buttons">
+							<a href="#" class=" close btn btn-add">Cancel</a>
+							<a href="#" class="btn">Continue</a>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+	</div>
+	<a href="#" class="back-to-top back-to-top-inner"><span class="ico icon-arrow-top"></span>To top</a>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript">window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
+	<script type="text/javascript" src="js/jquery.main.js"></script>
+</body>
+</html>
