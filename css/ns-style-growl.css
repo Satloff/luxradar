@@ -1,0 +1,62 @@
+/* Growl-style notifications */
+.ns-growl {
+	top: 30px;
+	left: 30px;
+	max-width: 300px;
+	border-radius: 5px;
+}
+
+.ns-growl p {
+	margin: 0;
+	line-height: 1.3;
+}
+
+[class^="ns-effect-"].ns-growl.ns-hide,
+[class*=" ns-effect-"].ns-growl.ns-hide {
+	-webkit-animation-direction: reverse;
+	animation-direction: reverse;
+}
+
+/* Scale */
+.ns-effect-scale {
+	background: #f7f7f7; /*background*/
+	box-shadow: 0 25px 10px -15px rgba(0,0,0,0.05);
+}
+
+.ns-effect-scale a {
+	color: #656464; /*link text*/
+}
+
+.ns-effect-scale a:hover,
+.ns-effect-scale a:focus {
+	color: #4aa4f6;
+}
+
+.ns-effect-scale .ns-close::before,
+.ns-effect-scale .ns-close::after {
+	background: #a8a8a8; /* X before*/
+}
+
+.ns-effect-scale .ns-close:hover::before,
+.ns-effect-scale .ns-close:hover::after {
+	background: #000; /* X after*/
+}
+
+.ns-effect-scale.ns-show,
+.ns-effect-scale.ns-hide {
+	-webkit-animation-name: animScale;
+	animation-name: animScale;
+	-webkit-animation-duration: 0.25s;
+	animation-duration: 0.25s;
+}
+
+@-webkit-keyframes animScale {
+	0% { opacity: 0; -webkit-transform: translate3d(0,40px,0) scale3d(0.1,0.6,1); }
+	100% { opacity: 1; -webkit-transform: translate3d(0,0,0) scale3d(1,1,1); }
+}
+
+@keyframes animScale {
+	0% { opacity: 0; -webkit-transform: translate3d(0,40px,0) scale3d(0.1,0.6,1); transform: translate3d(0,40px,0) scale3d(0.1,0.6,1); }
+	100% { opacity: 1; -webkit-transform: translate3d(0,0,0) scale3d(1,1,1); transform: translate3d(0,0,0) scale3d(1,1,1); }
+}
+
